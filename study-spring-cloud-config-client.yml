@@ -1,0 +1,10 @@
+server: 
+  port: 8201
+spring: 
+  profiles: dev 
+  
+---
+server: 
+  port: 8022 
+spring: 
+  profiles: test
